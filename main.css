@@ -1,0 +1,30 @@
+:root {
+    --blue: #B7D3FF;
+    --pink:#FFCCCB;
+    --red: #FF0703;
+  }
+
+header {
+    background-color: var(--blue);
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+
+.col-sm {
+    border-style: solid;
+    border-color: white;
+    border-width: thick;
+}
+
+.red {
+    background-color: var(--red);
+    color: white;
+}
+
+.pink {
+    background-color: var(--pink);
+}
+
+.menu {
+    height: 90vh;
+}
