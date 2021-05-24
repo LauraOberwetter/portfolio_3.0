@@ -13,6 +13,10 @@
     font-size: 4em;
 }
 
+body {
+    background-color: var(--blue);
+}
+
 /* main nav */
 .row {
     justify-content: space-around;
@@ -36,7 +40,7 @@
     background-color: var(--pink)!important;
 }
 
-.menu, .card {
+.menu, .card, .work {
     height: 85vh;
 }
 
@@ -47,8 +51,8 @@ a:link {
 
 .pinkBtn {
     display: hidden;
-    width: 120px;
-    height: 200px;
+    width: 30%;
+    height: 30%;
     border-radius: 50%;
     border: none;
     background: var(--pink);
@@ -60,8 +64,8 @@ a:link {
 
 .redBtn {
     display: hidden;
-    width: 120px;
-    height: 200px;
+    width: 30%;
+    height: 30%;
     border-radius: 50%;
     border: none;
     background: var(--red);
@@ -71,8 +75,8 @@ a:link {
     line-height: 1;
 }
 
-button:hover {
-    transform: scale(2.8);
+.redBtn:hover, .pinkBtn:hover {
+    transform: scale(3.25);
     transition-delay: 0s;
     visibility: visible;
   }
@@ -98,7 +102,7 @@ button:hover {
 .redCard, .pinkCard {
     color: black;
     font-family: 'Montserrat', sans-serif;
-    transition: transform .1s ease-out 2s;
+    transition: all 0s ease 1s; /*delay 1s*/
 }
 
 .redCard:hover {
@@ -115,3 +119,18 @@ button:hover {
     visibility: visible;
 }
 
+h3 {
+    font-family: 'Righteous', cursive;
+    padding-bottom: 15%;
+}
+
+.pinkWorkBtn {
+    width: 30%;
+    height: 30%;
+    border-radius: 100%;
+    border: none;
+    background: var(--pink);
+    color: black !important;
+    font-size: 20px;
+    line-height: 1;
+}
