@@ -4,38 +4,20 @@
     --red: #FF0703;
   }
 
-/* playing with circle cursor */
-/* 
-body {
-    height: 100%;
-    min-height: 100%;
-    cursor: none;
-    color: #000;
-    background-color: #fff;
-  }
-  
-  #invertedcursor {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    background: #fff;
-    border-radius: 50%;
-    top: var(--y, 0);
-    left: var(--x, 0);
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    mix-blend-mode: difference;
-    transition: transform .2s;
-  } */
-
 /* light blue header */
 
-header {
+.headBanner {
     background-color: var(--blue);
     color: white;
     font-family: 'Righteous', cursive;
     font-size: 4em;
 }
+
+/* main nav */
+.row {
+    justify-content: space-around;
+}
+/* ^this isnt working */
 
 .col-sm {
     border-style: solid;
@@ -46,16 +28,21 @@ header {
 }
 
 .red {
-    background-color: var(--red);
+    background-color: var(--red)!important;
     color: white;
 }
 
 .pink {
-    background-color: var(--pink);
+    background-color: var(--pink)!important;
 }
 
-.menu {
-    height: 90vh;
+.menu, .card {
+    height: 85vh;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
 }
 
 .pinkBtn {
@@ -66,7 +53,7 @@ header {
     border: none;
     background: var(--pink);
     transition: transform .1s ease 1s; /*delay 1s*/
-    color: black;
+    color: black !important;
     font-size: 20px;
     line-height: 1;
 }
@@ -85,7 +72,46 @@ header {
 }
 
 button:hover {
-    transform: scale(3);
+    transform: scale(2.8);
     transition-delay: 0s;
     visibility: visible;
   }
+
+#About {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.card-group {
+    margin-left: 10%;      
+    margin-right: 10%;
+    width: auto;
+}
+
+.fas, .fab {
+    font-size: 3em;
+    padding: 5%;
+    color: black;
+    
+}
+.redCard, .pinkCard {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    transition: transform .1s ease-out 2s;
+}
+
+.redCard:hover {
+    background-color: var(--pink)!important;
+    color: black;
+    transition-delay: 0s;
+    visibility: visible;
+}
+.pinkCard:hover {
+    background-color: var(--red)!important;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    transition-delay: 0s;
+    visibility: visible;
+}
+
