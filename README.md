@@ -29,7 +29,7 @@ This is an updated version of a portfolio prototype that I will continue to modi
     
 
 ## Preview
-![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/23666524/118375463-6aaf0700-b587-11eb-964b-dfec6b495214.gif)
+![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/23666524/119439199-8339c280-bce7-11eb-9ad2-7997d8db860d.gif)
 
    
 
