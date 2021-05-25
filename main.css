@@ -110,7 +110,7 @@ a:hover {
 
 .fas, .fab {
     font-size: 3em;
-    padding: 5%;
+    padding: 10%;
     color: black;
     
 }
@@ -165,4 +165,8 @@ h3 {
     background-image: url("assets/giphy.gif");
     background-size: 100%;
     color: white;
+}
+
+.work {
+    padding: 4%;
 }
