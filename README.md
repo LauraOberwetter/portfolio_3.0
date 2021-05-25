@@ -34,6 +34,6 @@ This is an updated version of a portfolio prototype that I will continue to modi
    
 
 ## Link
-Deployed via GitHub: https://mysterious-meadow-15624.herokuapp.com/
+Deployed via GitHub: https://lauraoberwetter.github.io/portfolio_3.0/
 
    
