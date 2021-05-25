@@ -161,6 +161,8 @@ h3 {
     line-height: 1;
 }
 
-#ffBtn:hover {
-    
+.redWorkBtn:hover, .pinkWorkBtn:hover {
+    background-image: url("assets/giphy.gif");
+    background-size: 100%;
+    color: white;
 }
